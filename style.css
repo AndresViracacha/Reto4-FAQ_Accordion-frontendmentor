@@ -69,7 +69,8 @@ label {
   align-items: center;
   cursor: pointer;
   margin: 20px 0;
-  font-size: 12px;
+  font-size: 14px;
+  color: var(--darkGrayBlue);
 }
 label::after {
   content: "";
@@ -84,6 +85,7 @@ p {
   transition: all 0.35s;
   font-weight: 400;
   font-size: 12px;
+  color: var(--grayBlue);
 }
 input {
   position: absolute;
@@ -101,7 +103,7 @@ input:checked ~ p {
   margin-bottom: 20px;
 }
 .questions {
-  max-width: 352px;
+  max-width: 350px;
 }
 .question {
   overflow: hidden;
